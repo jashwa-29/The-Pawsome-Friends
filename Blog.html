@@ -10,29 +10,36 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
         <div class="gridlayout">
             <div class="main-header">
-            <div class="logo-img">
-               <img src="./assets/petshop-logo.webp" alt="">
+                <div class="logo">
+                    <img src="./assets/petshop-logo.webp" alt="">
+                    <i class="bi bi-list ham-icon"></i>
+                    <i class="bi bi-x-lg close-btn"></i>
+                   
+                </div>
+                <div class="navigation">
+                    <div class="nav-text">
+                        <ul>
+                            <a href="./index.html"><li class="active">Home</li></a>
+                            <a href="./shop.html"><li>Shop</li></a>
+                            <a href="./Blog.html"><li>blog</li></a>
+                            <a href="./contact.html"><li>Contact</li></a>
+                        </ul>
+                    </div>
+                    <div class="nav-opt">
+                        <a href="./account.html"><img src="./assets/account-icon.webp" alt=""></a>
+                        <a href="#"><img src="./assets/search-icon.webp" alt=""></a>
+                        <a href="#"><img src="./assets/like-icon.webp" alt=""></a>
+                        <a href="./cart.html"><img src="./assets/cart-icon.webp" alt=""></a>
+                    </div>
+    
+                </div>
             </div>
-            <div class="nav-text">
-                <ul>
-                    <a href="./index.html"><li>Home</li></a>
-                    <a href="./shop.html"><li>Shop</li></a>
-                    <a href="./Blog.html"><li class="active">blog</li></a>
-                    <a href="./contact.html"><li>Contact</li></a>
-                </ul>
-            </div>
-            <div class="nav-opt">
-                <a href="./account.html"><img src="./assets/account-icon.webp" alt=""></a>
-                <a href="#"><img src="./assets/search-icon.webp" alt=""></a>
-                <a href="#"><img src="./assets/like-icon.webp" alt=""></a>
-                <a href="./cart.html"><img src="./assets/cart-icon.webp" alt=""></a>
-            </div>
-        </div>
         </div>
     </header>
 <main>
@@ -220,5 +227,6 @@
          </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
